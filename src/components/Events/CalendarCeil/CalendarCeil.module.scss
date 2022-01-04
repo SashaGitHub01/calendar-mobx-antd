@@ -1,0 +1,16 @@
+.ceil {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   & .descr {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      background-color: rgba(46, 252, 56, 0.418);
+      font-size: 1.6rem;
+      padding: 0.2rem 0.5rem;
+      overflow-wrap: break-word;
+   }
+}

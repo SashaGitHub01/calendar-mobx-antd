@@ -1,0 +1,63 @@
+.wrapper {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.wrapper {
+   & .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgb(38, 176, 255);
+      padding: 0 2.5rem;
+      height: 60px;
+   }
+   & .header_row {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+   }
+   & .nav {
+      color: #fff;
+   }
+
+   & .user_menu {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+
+      & .user_name {
+         font-size: 1.8rem;
+      }
+      & .quit {
+         font-size: 1.6rem;
+         color: rgb(233, 233, 233);
+         cursor: pointer;
+      }
+   }
+
+   & .sign_btn {
+      font-size: 1.8rem;
+      background-color: #fff;
+      padding: 0 1.5rem;
+      min-height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      & span {
+         color: rgb(38, 176, 255);
+      }
+   }
+
+   .main {
+      flex: 1 1 auto;
+      padding: 1.5rem 2rem;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+   }
+}

@@ -1,0 +1,21 @@
+.button {
+   min-height: 32px;
+   background-color: rgb(92, 217, 255);
+   border-radius: 7px;
+   padding: 0 1.6rem;
+
+   &:hover {
+      background-color: rgb(92, 168, 255);
+   }
+
+   &:disabled {
+      opacity: 0.4;
+      pointer-events: none;
+   }
+
+   & span {
+      font-size: 1.6rem;
+      font-weight: bold;
+      color: #fff;
+   }
+}

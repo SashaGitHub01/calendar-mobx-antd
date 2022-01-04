@@ -1,0 +1,25 @@
+.login {
+   flex: 1 1 auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+
+   & .login_window {
+      border-radius: 5px;
+      width: 350px;
+      border: 1px solid rgba(0, 0, 0, 0.568);
+      padding: 1rem 1.5rem 1.5rem 1.5rem;
+   }
+
+   & .login_head {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 1rem;
+   }
+   & .form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+   }
+}
